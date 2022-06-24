@@ -1,0 +1,102 @@
+<view class="user" style="width: 750rpx; height: 1175rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+<view class="zhong" style="width: 750rpx; height: 120rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">挑战开始！</view>
+
+<view class="zhong" style="width: 750rpx; height: 120rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">当前数字为：<text class='greenX'>{{count}}</text></view>
+<button bindtap='addOne' type='primary' style="position: relative; left: -200rpx; top: 47rpx; width: 235rpx; height: 94rpx; display: block; box-sizing: border-box">go on~</button>
+
+<button bindtap='addOne1'  style="position: relative; left: 158rpx; top: -47rpx; width: 235rpx; height: 94rpx; display: block; box-sizing: border-box">stop!</button>
+
+<view style="width: 750rpx; height: 31rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></view>
+
+<text style="display: block; text-align: center; font-size: 30px; color: rgb(31, 24, 19); margin-top: 50px; width: 750rpx; height: 120rpx; box-sizing: border-box; left: NaNrpx; top: NaNrpx">{{clock}} {{micro_second}}</text>
+
+<view wx:if="{{count==1&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==2&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==3&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==4&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==5&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==6&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==7&count1==0}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==8&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==9&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==10&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==11&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==12&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==13&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 361rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFiex.jpg"/></view>
+<view wx:if="{{count==14&count1==1}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/></view>
+<view wx:if="{{count==15&count1==3}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==16&count1==3}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==17&count1==2}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==18&count1==4}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==19&count1==4}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==20&count1==4}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==21&count1==3}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==22&count1==5}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==23&count1==5}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==24&count1==5}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==25&count1==5}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==26&count1==5}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFvHP.jpg"/>
+</view>
+<view wx:if="{{count==27&count1==4}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==28&count1==5}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==29&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==30&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==31&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==32&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==33&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==34&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==35&count1==6}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==36&count1==8}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==37&count1==7}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==38&count1==9}}">挑战失败，请返回重试<image style="width: 357rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFCO1.jpg"/></view>
+<view wx:if="{{count==39&count1==9}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+
+<view wx:if="{{count==40&count1==9}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==41&count1==9}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==42&count1==8}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==43&count1==10}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==44&count1==10}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==45&count1==10}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==46&count1==10}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==47&count1==9}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==48&count1==11}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==49&count1==10}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==50&count1==12}}">挑战失败，请返回重试<image style="width: 298rpx; height: 324rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tUp5T.jpg"/></view>
+<view wx:if="{{count==51&count1==12}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==52&count1==12}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==53&count1==12}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==54&count1==12}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==55&count1==12}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==56&count1==11}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==57&count1==12}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==58&count1==14}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==59&count1==14}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==60&count1==14}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==61&count1==14}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==62&count1==14}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==63&count1==13}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==64&count1==15}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==65&count1==15}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==66&count1==15}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==67&count1==14}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==68&count1==16}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==69&count1==16}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==70&count1==15}}">挑战失败，请返回重试<image style="width: 750rpx; height: 446rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tFFw6.png"/></view>
+<view wx:if="{{count==70&count1==16}}">恭喜挑战成功！！<image style="width: 400rpx; height: 400rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tixW4.jpg"/></view>
+
+<image style="width: 750rpx; height: 0rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+
+</view>
+

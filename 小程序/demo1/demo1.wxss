@@ -1,0 +1,18 @@
+.zhong1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200rpx;
+    font-size: 55rpx;
+}
+.zhong2{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:200rpx;
+      font-size: 45rpx;
+}
+.user{
+      background-image: url(https://z3.ax1x.com/2021/10/03/4Lx5n0.jpg);
+      background-size: 100% 100%;
+}

@@ -1,0 +1,24 @@
+<view class="user" style="width: 753rpx; height: 1170rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+<view class="zhong0" style="width: 750rpx; height: 155rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">《七或七的倍数》</view>
+<view class="zhong1" style="width: 750rpx; height: 83rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">欢迎来到小学二年级都能通过的</view>
+
+<view class='zhong1' style="width: 750rpx; height: 52rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">智力测试小游戏！！</view>
+
+<!--猪的加油-->
+<image style="width: 270rpx; height: 256rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="zhong" src="https://z3.ax1x.com/2021/09/21/4twAMQ.jpg"/>
+
+<view class='zhong1' style="width: 750rpx; height: 113rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">游戏规则：</view>
+<view class='section' style="width: 750rpx; height: 591rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">选手需在90秒的时间里以最快的反应速度进行游戏，若下一个数字不是以七结尾的数字或是七的倍数的数字（此后简称为“七或七的倍数”），需点击绿色按钮；若下一个数字是七或七的倍数，需点击白色按钮。若选手可完美地到达第70个数字，则证明挑战成功；一旦点击出错，挑战失败，选手需重读二年级（doge）!</view>
+
+<view class="zhong0" style="width: 750rpx; height: 209rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">你准备好了咩？？</view>
+
+<image style="width: 523rpx; height: 420rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4td8Et.jpg"/>
+
+<navigator url="/demo4/demo4" style="width: 750rpx; height: 155rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" ><button style="position: relative; left: -5rpx; top: 17rpx; width: 364rpx; height: 113rpx; display: block; box-sizing: border-box" type='primary'>点击开始游戏</button></navigator>
+
+
+<!--龙猫-->
+<image style="width: 750rpx; height: 523rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  src="https://z3.ax1x.com/2021/09/21/4tF9yR.jpg"/>
+
+</view>

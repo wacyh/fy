@@ -1,0 +1,19 @@
+<view class="user">
+
+<view class="zhong" style="width: 750rpx; height: 99rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">第一组</view>
+
+<image src="https://s3.bmp.ovh/imgs/2021/10/9c9c22e700d3decf.jpg" style="width: 750rpx; height: 399rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+
+<view class="zhong" style="width: 750rpx; height: 99rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">第二组</view>
+
+<image src="https://s3.bmp.ovh/imgs/2021/10/b6b58a38fdb37829.jpg" style="width: 750rpx; height: 476rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+
+<view class="zhong" style="width: 750rpx; height: 99rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">第三组</view>
+
+<image src="https://s3.bmp.ovh/imgs/2021/10/d20c7fad5d4ed102.jpg" style="width: 750rpx; height: 518rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+
+<view class="zhong" style="width: 750rpx; height: 99rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">感谢支持，祝您生活愉快，再见啦~</view>
+
+<navigator url="/demo0/demo0" style="width: 750rpx; height: 113rpx; display: block; box-sizing: border-box; left: -15rpx; top: 8rpx; position: relative"><button style="position: relative; left: -3rpx; top: -12rpx; width: 411rpx; height: 113rpx; display: block; box-sizing: border-box">-回到初始界面-</button></navigator>
+
+</view>

@@ -1,0 +1,20 @@
+<view class="user">
+
+<view class='zhong1' style="width: 750rpx; height: 113rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">遛猫遛狗累了吧？</view>
+
+<view class='zhong1' style="width: 750rpx; height: 113rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">来玩玩单易上手的小游戏？</view>
+
+<view class='zhong1' style="width: 750rpx; height: 113rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">首先是对眼力的考验</view>
+
+<navigator url="/demo1/demo1" style="width: 750rpx; height: 113rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"><button style="position: relative; left: -15rpx; top: 8rpx; width: 364rpx; height: 113rpx; display: block; box-sizing: border-box">-找茬-</button></navigator>
+
+<view class="zhong2" style="width: 750rpx; height: 113rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">其次是对数字敏感性的考验</view>
+
+<navigator url="/demo3/demo3" style="width: 750rpx; height: 113rpx; display: block; box-sizing: border-box; left: -15rpx; top: 8rpx; position: relative"><button style="position: relative; left: -3rpx; top: -12rpx; width: 411rpx; height: 113rpx; display: block; box-sizing: border-box">-七与七的倍数-</button></navigator>
+
+<view class='zhong1' style="width: 750rpx; height: 150rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">选择你想尝试的游戏吧！</view>
+
+<image src="https://z3.ax1x.com/2021/09/30/4o4Q0S.jpg" style="width: 750rpx; height: 650rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+
+</view>
+

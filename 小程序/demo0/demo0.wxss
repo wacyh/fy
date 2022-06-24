@@ -1,0 +1,26 @@
+.zhong1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200rpx;
+    color: #3a3244;
+    font-size: 50rpx;
+   }
+
+.zhong2{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:200rpx;
+  color: #2e243b;
+  font-size: 50rpx;
+  }
+
+.user{
+    background-image: url(https://s3.bmp.ovh/imgs/2021/10/f46fb02eed3f7c07.webp);
+    background-size: 100% 100%;
+  }
+
+    
+ 
+ 

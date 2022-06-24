@@ -1,0 +1,22 @@
+{
+    "pages": [
+        "demo0/demo0",
+        "demo1/demo1",
+        "demo2/demo2",
+        "demo3/demo3",
+        "demo4/demo4",
+        "demo5/demo5",
+        "demo6/demo6",
+        "demo7/demo7",
+        "demo8/demo8"
+       
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#0094ff",
+        "navigationBarTitleText": "主人休息室",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true
+    },
+    "sitemapLocation": "sitemap.json"
+}

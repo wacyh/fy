@@ -1,0 +1,16 @@
+.zhong{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200rpx;
+    font-size: 50rpx;
+}
+   
+.user{
+    background-image: url(https://s3.bmp.ovh/imgs/2021/10/c9f2e15ceac6c315.jpg);
+    background-size: 100% 100%;
+} 
+.section{
+    height:200rpx;
+    font-size: 50rpx;
+}

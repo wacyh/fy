@@ -1,0 +1,24 @@
+<view class="zhong" style="width: 750rpx; height: 104rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请根据谜底输入数字：</view>
+
+<view class="zhong" style="width: 750rpx; height: 104rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">十位数：一减一不是零</view>
+<view class="zhong" style="width: 750rpx; height: 26rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">个位数：在空中</view>
+
+
+<view class="zhong" style="width: 750rpx; height: 169rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">当前数字为：<text class='greenX'>{{count}}{{count1}}</text></view>
+<button bindtap='addOne' type='primary' style="position: relative; left: -169rpx; top: 0rpx; width: 258rpx; height: 136rpx; display: block; box-sizing: border-box">十位数+1</button>
+
+<button bindtap='addOne1' type='primary' style="position: relative; left: 179rpx; top: -134rpx; width: 258rpx; height: 134rpx; display: block; box-sizing: border-box">个位数+1</button>
+
+<button bindtap='decreaseOne' style="position: relative; left: -169rpx; top: -31rpx; width: 258rpx; height: 136rpx; display: block; box-sizing: border-box">十位数-1</button>
+
+<button bindtap='decreaseOne1' style="position: relative; left: 179rpx; top: -165rpx; width: 258rpx; height: 134rpx; display: block; box-sizing: border-box">个位数-1</button>
+
+<view class="zhong" wx:if="{{count>=10}}">请认真作答哦~</view>
+<view class="zhong" wx:if="{{count1>=10}}">请认真作答哦~</view>
+
+<view class="zhong" wx:if="{{count==3&count1==8}}">恭喜你，猜对啦~</view>
+<view class="zhong" wx:else  style="width: 750rpx; height: 64rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">别急慢慢猜~~</view>
+ 
+
+
+

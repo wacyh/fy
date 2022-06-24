@@ -1,0 +1,19 @@
+<view class="user" style="width: 750rpx; height: 1182rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+<text class="zhong1" style="width: 750rpx; height: 85rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">《找茬》</text>
+
+
+<view class="zhong2" style="width: 750rpx; height: 59rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">游戏规则：</view>
+
+<view class="zhong2" style="width: 750rpx; height: 293rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">游戏会提供一组照片，玩家需尽快找出两张照片中共有多少不同之处，并将个数输入在框框中，若回答正确可进入下一组图片的挑战，回答错误则需重新再来。</view>
+
+<view style="width: 750rpx; height: 406rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></view>
+
+<view class="zhong2" style="width: 750rpx; height: 85rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">（眼神不好是允许使用八倍镜哦）</view>
+
+<navigator url="/demo2/demo2" style="width: 750rpx; height: 113rpx; display: block; box-sizing: border-box; left: -15rpx; top: 8rpx; position: relative"><button style="position: relative; left: 3rpx; top: 8rpx; width: 411rpx; height: 113rpx; display: block; box-sizing: border-box">-进入游戏-</button></navigator>
+
+
+
+ 
+</view>

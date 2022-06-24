@@ -1,0 +1,19 @@
+<view class="user" style="width: 750rpx; height: 1179rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+
+<view class="zhong" style="width: 750rpx; height: 80rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请仔细比较下面两张图片！</view>
+
+<image src="https://z3.ax1x.com/2021/10/04/4O2Dfg.jpg" style="width: 750rpx; height: 563rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+
+<view class="zhong" style="width: 750rpx; height: 80rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">要认真仔细点哦~~</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+    <input class="weui-input" placeholder="请输入你认为存在不同的个数" type="text" bindinput="guess" style="width: 750rpx; height: 113rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></input>
+  </view>
+</view>
+<view wx:if="{{guessNum==randomNum}}">
+  <text>恭喜回答正确！！</text><navigator url="/demo7/demo7" style="width: 750rpx; height: 113rpx; display: block; box-sizing: border-box; left: -15rpx; top: 8rpx; position: relative"><button style="position: relative; left: -3rpx; top: -12rpx; width: 411rpx; height: 113rpx; display: block; box-sizing: border-box">-查看答案-</button></navigator>
+</view>
+
+</view>
